@@ -10,4 +10,10 @@ Fondamentale è saper *sincronizzare il nostro lavoro con un repository remoto*
 `git remote -v` --> visualizza i server remoti collegati al nostro repository
 
 ### *Aggiungere o rimuovere un repository remoto*
+`git remote add <nome> <url>`
+
+### *Caricare il lavoro locale sul repository remoto*
 `git push <remoto> <ramo-locale>`
+
+### *Aggiornare la copia locale del repository, allineandola con la versione remota*
+`git pull <remoto> <ramo-locale>`
